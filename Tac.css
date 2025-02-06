@@ -4,7 +4,7 @@ padding:0;
 }
 
 body{
-    background-color:#54877c;
+     background-color:cyan;
     text-align: center;
 
 }
@@ -35,13 +35,13 @@ body{
     box-shadow: 0 0 1rem rgba(0,0,0,0.3);
     font-size: 8vmin;
     color: #b0413e;
-    background-color: #ffffc7;
+     background-color: #ececbd;
 }
 
 #reset{
     padding: 1rem;
     font-size: 1.25rem;
-    background-color:black;
+    background-color:rgb(153, 221, 44);
     color: white;
     border-radius: 1rem;
     border: none;
@@ -50,7 +50,7 @@ body{
 #new-btn{
     padding: 1rem;
     font-size: 1.25rem;
-    background-color:black;
+    background-color:rgb(153, 221, 44);
     color: white;
     border-radius: 1rem;
     border: none;
@@ -75,3 +75,13 @@ body{
 .hide{
     display: none;
 }
+
+ #reset:hover{
+        background-color: white;
+        color: black;
+        zoom: 1.115;
+    }
+
+    .box:hover{
+        background-color: white;
+    }
